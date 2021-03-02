@@ -29,6 +29,8 @@ namespace DiceGameOpdracht
             {
                 Console.Write("ERROR");
             }
+
+            
         }
     }
 }

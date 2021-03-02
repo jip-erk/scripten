@@ -1,0 +1,23 @@
+het word een dicegame waarbij je zelf de player aantal kan kiezen en zo spelen wie het hoogste gooid heeftgewonnen ook wil ik bonusen toevoegen.
+
+psudeo code 
+
+player kiest tussen regels / start / quit
+
+als regels laat regels zien 
+
+als quit quit 
+
+als start start game 
+
+start game -> aantal players 
+
+aantalplayers = aantal random numbers generated. 
+
+laat generated numbers zien met player names 
+
+hoogste number wint 
+
+show all numbers
+
+options restart or quit
