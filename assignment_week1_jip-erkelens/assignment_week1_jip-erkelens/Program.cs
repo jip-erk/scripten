@@ -6,7 +6,7 @@ namespace week_1_Assignment_jip_erkelens
     class Program
     {
 
-        
+
 
         static void Main(string[] args)
         {
@@ -25,12 +25,12 @@ namespace week_1_Assignment_jip_erkelens
 
             #endregion
 
-            
+
 
             Console.WriteLine("enter item: ");
             listchecker();
 
-             void listchecker()
+            void listchecker()
             {
 
                 if (items1.Contains(Console.ReadLine()))
@@ -39,7 +39,7 @@ namespace week_1_Assignment_jip_erkelens
                 }
                 else
                 {
-                    
+
                     Console.WriteLine("this item is not in the list");
                     listchecker();
                 }
@@ -48,13 +48,15 @@ namespace week_1_Assignment_jip_erkelens
                 items1.Sort();
                 items1.ForEach(Console.WriteLine);
 
-               // items1.RemoveRange(4, list.Count - 4);
+                Console.WriteLine("----------------------------------------");
+
+                items1.RemoveRange(4, items1.Count - 4);
                 items1.Reverse();
                 items1.ForEach(Console.WriteLine);
 
             }
 
-            
+
 
 
 
