@@ -48,7 +48,7 @@ namespace week_1_Assignment_jip_erkelens
                 items1.Sort();
                 items1.ForEach(Console.WriteLine);
 
-                Console.WriteLine("----------------------------------------");
+                Console.WriteLine("~-------------------------------------~");
 
                 items1.RemoveRange(4, items1.Count - 4);
                 items1.Reverse();
